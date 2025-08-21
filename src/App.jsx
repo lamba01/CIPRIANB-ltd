@@ -5,6 +5,7 @@ import About from "./section/About";
 import Services from "./section/Services";
 import Map from "./components/Map";
 import Mapsection from "./section/Mapsection";
+import Testimonial from "./section/Testimonial";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Map />
       <Mapsection />
+      <Testimonial />
     </div>
   );
 }

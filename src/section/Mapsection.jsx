@@ -24,9 +24,21 @@ function ContactInfo() {
             <div className="p-2 bg-[#D2153D]">
               <FaPhoneAlt className="text-white text-xl" />
             </div>
-            <p className="text-[#00215B] font-semibold">
-              +44 7301 613598 <br /> +44 2087 534680
-            </p>
+            <div>
+              <a
+                href="tel:+447301613598"
+                className="text-[#00215B] font-semibold hover:underline"
+              >
+                +44 7301 613598
+              </a>
+              <br />
+              <a
+                href="tel:+442087534680"
+                className="text-[#00215B] font-semibold hover:underline"
+              >
+                +44 2087 534680
+              </a>
+            </div>
           </div>
         </div>
 
@@ -36,9 +48,12 @@ function ContactInfo() {
             <div className="p-2 bg-[#001ED3]">
               <LuMessageCircleMore className="text-white text-xl" />
             </div>
-            <p className="text-[#00215B] font-semibold lowercase">
-              info@CIPRIANB.co.uk
-            </p>
+            <a
+              href="mailto:info@ciprianb.co.uk"
+              className="text-[#00215B] font-semibold lowercase hover:underline"
+            >
+              info@ciprianb.co.uk
+            </a>
           </div>
         </div>
       </div>
