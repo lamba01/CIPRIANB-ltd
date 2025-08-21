@@ -6,7 +6,7 @@ import serviceimg4 from "../assets/services4.png";
 
 function Services() {
   return (
-    <section className="flex flex-col lg:flex-row w-full py-20">
+    <section className="flex flex-col lg:flex-row w-full py-20" id="services">
       {/* First big block */}
       <div
         className="relative w-full lg:w-1/2 h-[45vh] lg:h-[90vh] bg-cover bg-center"

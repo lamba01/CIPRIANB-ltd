@@ -4,7 +4,10 @@ import Button from "../components/Contactbtn";
 
 export default function About() {
   return (
-    <section className="flex sm:flex-row flex-col items-center gap-5 px-4 sm:px-20 mt-20">
+    <section
+      className="flex sm:flex-row flex-col items-center gap-5 px-4 sm:px-20 mt-20"
+      id="about"
+    >
       <div className="flex flex-col gap-8 items-start w-full sm:w-1/2 order-2">
         <div>
           <span className="text-[#D2153D] uppercase font-semibold text-sm mb-2">
@@ -14,6 +17,9 @@ export default function About() {
             with our knowledge we guarantee success
           </h1>
         </div>
+        <p className="text-[#41444B] text-sm">
+          Company Nº 16457838 — Registered in England &amp; Wales
+        </p>
         <p className="text-[#41444B]">
           With our extensive industry knowledge and hands-on experience, we
           provide reliable solutions that guarantee the success of every

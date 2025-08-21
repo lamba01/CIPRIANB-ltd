@@ -6,6 +6,8 @@ import Services from "./section/Services";
 import Map from "./components/Map";
 import Mapsection from "./section/Mapsection";
 import Testimonial from "./section/Testimonial";
+import Banner from "./section/Banner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Map />
       <Mapsection />
       <Testimonial />
+      <Banner />
+      <Footer />
     </div>
   );
 }
