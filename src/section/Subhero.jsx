@@ -17,7 +17,7 @@ function Subhero() {
       </div>
 
       {/* Box 3 - Big Info Block */}
-      <div className="order-1 sm:order-3 bg-gray-50 p-4 shadow-md text-left sm:col-span-1 sm:row-span-2 relative -mt-20 sm:-mt-32 z-20">
+      <div className="order-1 sm:order-3 bg-gray-50 p-4 shadow-md text-left sm:col-span-1 sm:row-span-2 relative -mt-20 sm:-mt-32 z-20 border-t-6 border-solid border-[#001ED3]">
         <h3 className="text-2xl font-bold mb-6 text-center">
           We Construct and Manage Places and Infrastructure
         </h3>
