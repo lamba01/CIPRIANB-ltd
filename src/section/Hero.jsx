@@ -10,7 +10,7 @@ export default function Hero() {
     >
       <div className="absolute left-0 top-0 h-full w-full  bg-black/70 sm:bg-black/70 z-10" />
       <div className="absolute inset-0 bg-black/20 sm:bg-transparent z-10" />
-      <div className="absolute inset-0 flex flex-col justify-center items-start text-white z-20 space-y-4 sm:max-w-1/2 px-4 sm:px-10">
+      <div className="absolute inset-0 flex flex-col sm:justify-center py-20 sm:py-0 items-start text-white z-20 space-y-4 sm:max-w-1/2 px-4 sm:px-10">
         <h1 className="sm:text-4xl text-2xl font-bold text-start max-w-2xl">
           Strong Materials. Stronger Foundations.
         </h1>
